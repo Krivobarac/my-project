@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "collection_pages",
+  "info": {
+    "singularName": "collection-page",
+    "pluralName": "collection-pages",
+    "displayName": "Collection Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "lohnes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::lohne.lohne",
+      "mappedBy": "collection_page"
+    }
+  }
+}

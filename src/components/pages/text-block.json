@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_pages_text_blocks",
+  "info": {
+    "displayName": "Text Block",
+    "icon": "file-import"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

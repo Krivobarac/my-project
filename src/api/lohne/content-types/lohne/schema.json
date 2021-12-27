@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lohnes",
+  "info": {
+    "singularName": "lohne",
+    "pluralName": "lohnes",
+    "displayName": "lohne",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dfasga": {
+      "type": "dynamiczone",
+      "components": [
+        "collection-page.facts-block",
+        "collection-page.page-text-block",
+        "collection-page.text-video-block"
+      ],
+      "required": true
+    },
+    "twreytru": {
+      "type": "enumeration",
+      "enum": [
+        "dgfd",
+        "hkjlgkj",
+        "hkfhj"
+      ]
+    },
+    "collection_page": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::collection-page.collection-page",
+      "inversedBy": "lohnes"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_collection_page_facts_blocks",
+  "info": {
+    "displayName": "Facts Block",
+    "icon": "graduation-cap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

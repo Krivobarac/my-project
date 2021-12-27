@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_collection_page_text_video_blocks",
+  "info": {
+    "displayName": "Video Block",
+    "icon": "folder-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    }
+  }
+}
