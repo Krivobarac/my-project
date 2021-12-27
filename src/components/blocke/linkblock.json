@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocke_linkblocks",
+  "info": {
+    "displayName": "Linkblock",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "string",
+      "required": true
+    },
+    "Link_Titel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

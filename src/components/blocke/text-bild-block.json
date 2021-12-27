@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocke_text_bild_blocks",
+  "info": {
+    "displayName": "Textbild Block",
+    "icon": "file-invoice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "build": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

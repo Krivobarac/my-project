@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocke_tabelleblocks",
+  "info": {
+    "displayName": "Tabelleblock",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocke.textblock",
+      "required": true
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocke.textblock",
+      "required": true
+    }
+  }
+}

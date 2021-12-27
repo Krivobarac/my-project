@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocke_tastenblocks",
+  "info": {
+    "displayName": "Tastenblock",
+    "icon": "window-minimize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Tasten_text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    },
+    "ist_dialog_link": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

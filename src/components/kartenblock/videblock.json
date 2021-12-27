@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_kartenblock_videblocks",
+  "info": {
+    "displayName": "Videblock",
+    "icon": "film",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "datenschutzs",
+  "info": {
+    "singularName": "datenschutz",
+    "pluralName": "datenschutzs",
+    "displayName": "Datenschutz",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "block": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "blocke.linkblock",
+        "blocke.medienblock",
+        "blocke.tastenblock",
+        "blocke.text-bild-block",
+        "blocke.textblock-erreichen",
+        "blocke.textblock",
+        "blocke.tabelleblock"
+      ],
+      "required": true
+    }
+  }
+}

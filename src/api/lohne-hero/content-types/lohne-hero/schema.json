@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "lohne_heroes",
+  "info": {
+    "singularName": "lohne-hero",
+    "pluralName": "lohne-heroes",
+    "displayName": "_Lohne Hero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "seitenblock.heroblock"
+    },
+    "sammlungsseitentyp": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sammlungsseitentyp.sammlungsseitentyp"
+    }
+  }
+}

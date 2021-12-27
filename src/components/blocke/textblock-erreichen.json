@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocke_textblock_erreichens",
+  "info": {
+    "displayName": "Textblock Erreichen",
+    "icon": "file-signature"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

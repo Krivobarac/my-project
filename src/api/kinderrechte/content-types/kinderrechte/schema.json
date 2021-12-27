@@ -1,18 +1,27 @@
 {
   "kind": "collectionType",
-  "collectionName": "lohnes",
+  "collectionName": "kinderrechtes",
   "info": {
-    "singularName": "lohne",
-    "pluralName": "lohnes",
-    "displayName": "_lohne",
+    "singularName": "kinderrechte",
+    "pluralName": "kinderrechtes",
+    "displayName": "_Kinderrechte",
     "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
-    "Kartenblock": {
+    "Kinderrechte": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "type": "dynamiczone",
       "components": [
         "kartenblock.faktenblock",
@@ -25,7 +34,7 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::sammlungsseitentyp.sammlungsseitentyp",
-      "inversedBy": "lohnes"
+      "inversedBy": "kinderrechtes"
     },
     "kartenblocktyp": {
       "type": "relation",

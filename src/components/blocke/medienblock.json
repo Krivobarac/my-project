@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocke_medienblocks",
+  "info": {
+    "displayName": "Medienblock",
+    "icon": "file-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "medien": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

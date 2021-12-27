@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocke_textblocks",
+  "info": {
+    "displayName": "Textblock",
+    "icon": "file-word",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "kinderrechte_heroes",
+  "info": {
+    "singularName": "kinderrechte-hero",
+    "pluralName": "kinderrechte-heroes",
+    "displayName": "_Kinderrechte Hero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "seitenblock.heroblock"
+    },
+    "sammlungsseitentyp": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sammlungsseitentyp.sammlungsseitentyp"
+    }
+  }
+}

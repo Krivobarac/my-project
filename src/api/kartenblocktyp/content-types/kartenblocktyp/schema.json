@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kartenblocktyps",
+  "info": {
+    "singularName": "kartenblocktyp",
+    "pluralName": "kartenblocktyps",
+    "displayName": "Kartenblocktyp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "typ": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
